@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: EurekaDiscoveryServer # 서비스 ID
+  cloud:
+    config:
+      uri: http://localhost:8888
 
 eureka:
   client:
